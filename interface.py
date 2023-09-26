@@ -10,6 +10,7 @@ def pegartexto():
     time.sleep(5)
     while x<z:
         pg.write(f'{a}\n')
+        time.sleep(0.2)
         x+=1
 
 root=Tk()
